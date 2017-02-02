@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <title>{% block window_title %} {% endblock %}
+  </title>
+  <meta charset="utf-8">
+  {% block extra_head %}
+  {% endblock %}
+</head>
+<body>
+  <h1>{% block title %} {% endblock %}</h1>
+  {% block content %}
+
+  {% endblock %}
+</body>
+</html>
